@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hellas Verona</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            text-align: center;
+            position: relative;
+        }
+
+        header {
+            background-color: #039;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .language-buttons {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+
+        .language-buttons button {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+        }
+
+        .flag-icon {
+            width: 30px;
+            height: auto;
+            margin-left: 5px;
+        }
+
+        .language-buttons button:focus {
+            outline: none;
+        }
+
+        #logo {
+            width: 150px;
+            height: auto;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+        }
+
+        section {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #1a1919;
+        }
+
+        h3 {
+            font-size: 35px;
+        }
+
+        p {
+            margin-left: 20px;
+            margin-right: 40px;
+            font-family: Arial, sans-serif;
+            line-height: 1.5;
+            margin-bottom: 70px;
+        }
+
+        .button {
+            background-color: #1a1919;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .button:hover {
+            background-color: #333;
+        }
+
+        footer {
+            background-color: #1a1919;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .home-box {
+            background-color: #039;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+
+        nav {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            background-color: #039;
+        }
+
+        nav ul li {
+            display: inline-block;
+            position: relative;
+        }
+
+        nav ul li a {
+            display: block;
+            padding: 10px 20px;
+            color: #333;
+            text-decoration: none;
+        }
+
+        nav ul li:hover {
+            background-color: #039;
+        }
+
+        nav ul li:hover > ul {
+            display: block;
+        }
+
+        nav ul ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #f2f2f2;
+            border: none; /* Rimuove il bordo intorno al menu a tendina */
+        }
+
+        nav ul ul li {
+            display: block;
+        }
+        nav ul ul li a {
+            padding: 10px 20px;
+            color: #333;
+            text-decoration: none;
+        }
+
+        nav ul ul li a:hover {
+            background-color: #ddd;
+        }
+        .menu-icon {
+            width: 30px;
+            height: auto;
+            margin-right: 10px;
+            fill: #333; 
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="home_it.html">
+            <img src="logo_hellas_verona.png" alt="Hellas Verona" id="logo">
+        </a>
+        <div class="language-buttons">
+            <a href="stadio_it.html"><button onclick="setLanguage('it')"><img src="italy.png" alt="Italian" class="flag-icon"></button></a>
+            <a href="stadio_eng.html"><button onclick="setLanguage('en')"><img src="eng.png" alt="English" class="flag-icon"></button></a>
+        </div>
+        <h1>Hellas Verona</h1>
+		<nav>
+			<ul>
+				<li>
+					<img src="menu_icon.png" alt="Menu" class="menu-icon">
+					<ul>
+						<li><a href="home_it.html">HOME</a></li>
+						<li><a href="storia_it.html">STORIA</a></li>
+						<li><a href="stadio_it.html">STADIO</a></li>
+						<li><a href="maglie_it.html">MAGLIE</a></li>
+						<li><a href="scudetto_it.html">CAMPIONATO</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav> 
+	</header>
+	<h3>STORIA DELLO STADIO</h3>
+	<p>Fu progettato dall'ing. Leopoldo Baruchello secondo una soluzione molto rara nel panorama degli impianti sportivi italiani, ovvero sovrapponendo tre ordini di scalinate. Inaugurato il 15 dicembre 1963, ha sostituito il vecchio e omonimo stadio comunale che era sito nella zona di piazza Cittadella. È dotato di una pista di atletica ad otto corsie che nell'agosto del 2010 è stata rivoluzionata (la vecchia pista si era deteriorata) e sostituita da una nuova pista in asfalto, dipinta con i colori blu e giallo e aperta al pattinaggio.
+		La sua capienza è variata nel corso degli anni, soprattutto dopo i mondiali di Italia 90 quando vennero coperti tutti i settori ed eliminati i posti liberi. Attualmente è di 42 160 posti, distribuiti su un parterre (di cui solo la parte est è oggi aperta al pubblico, limitatamente ai disabili e ai loro accompagnatori), tre anelli sovrapposti (poltronissime, tribuna e tribuna superiore) ed una tribuna stampa (182 posti).
+		Soprannominato all'epoca della costruzione stadio dei quarantamila, il Bentegodi si presenta all'interno come un ampio anfiteatro a forma ellittica. È intitolato alla memoria di Marcantonio Bentegodi, storico benefattore dello sport veronese del XIX secolo.
+		Progettato per rimpiazzare il vecchio "Bentegodi" che esordì nel 1910, il nuovo stadio, costato circa un miliardo di lire dell'epoca (11420000 €) fu inaugurato il 15 dicembre 1963 in occasione dell'incontro di serie B tra Verona e Venezia, vinto 1-0 da quest'ultimo..
+		L'affluenza record fu registrata il 23 gennaio 1983 in occasione di Verona-Roma, 47 896 spettatori (di cui 38 767 paganti e 9 129 abbonati).
+		Nella stagione 1984-85 fu il teatro della conquista dello scudetto da parte del Verona, mentre nell'annata 2000-01 vide la prima promozione in Serie A del Chievo. Nel 1985 iniziarono i lavori di costruzione del terzo anello e della copertura, in vista dei Mondiali di calcio Italia 1990. Lo stadio quindi si ingrandiva ma senza una significativa variazione del numero dei posti in quanto venivano allargati i percorsi di fuga e venivano installati i seggiolini numerati. Nei Mondiali di calcio Italia 1990 il Bentegodi ha ospitato il gruppo E (Belgio, Corea del Sud, Spagna, Uruguay) e l'ottavo di finale fra Spagna e Jugoslavia. 
+		Il record di spettatori del Bentegodi ampliato e coperto si avrà il 6 novembre 1988 con un Verona-Milan da 47.798 spettatori (35.077 paganti e 12.721 abbonati), inferiore di 98 persone al record del 1983.
+		Fu anche sede della finale del campionato di rugby 1996-97 tra Benetton Treviso e Milan, incontro vinto dai veneti per 34-29.
+	</p>
+	<img src="dopocostruzione.jpg">
+	<figcaption>Lo stadio Bentegodi poco dopo la sua costruzione</figcaption>
+	<h3>LA STORICA CURVA SUD</h3>
+	<p>La curva Sud è storicamente riservata ai tifosi dell'Hellas Verona, mentre dalla stagione 2015-16 la curva Nord è riservata ai supporter del Chievo, dopo una piccola "lotta" durata diversi anni per ottenere la curva che, per motivi organizzativi, il comune non concedeva loro; conseguentemente, i tifosi ospiti prendono posto nella curva Nord Superiore in occasione delle partite casalinghe degli scaligeri, e nella curva Sud Superiore in occasione delle sfide interne dei clivensi. La tribuna Ovest (lato delle panchine) è invece attrezzata per la stampa[7]. Il terreno di gioco misura 105x68 m.
+		Tra luglio e dicembre del 2009 sulla copertura del Bentegodi è stato installato un impianto fotovoltaico del valore di circa 4 milioni di euro e della potenza nominale di circa 1 MW (9591 m² di pannelli per una potenza di 999 kWp), diventando così il primo stadio solare d'Italia ed il più grande impianto fotovoltaico d'Italia su una struttura sportiva, grazie all'installazione di 13 328 pannelli solari; con il ricavato dall'energia prodotta vengono coperti ampiamente i costi di manutenzione dell'impianto sportivo.
+		Il 13 ottobre 2010 l'impianto ospitò un incontro della nazionale di rugby a 15 dell'Italia, contro l'Argentina e terminato con la sconfitta degli Azzurri con il punteggio di 16 a 22.
+		Il 6 aprile 2014 il Bentegodi ospitò per la prima, e allo stato attuale unica, volta il terzo club professionistico cittadino, il Virtus Verona, impegnato in Lega Pro contro l'Alessandria.
+	</p>
+	<img src="curva.png">
+	<footer>
+		<p>GIACOMO GIRELLI</p>
+        <p>Contatti: giacomo.girelli1@iismariecurievr.it</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hellas Verona</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            text-align: center;
+            position: relative;
+        }
+
+        header {
+            background-color: #039;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .language-buttons {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+
+        .language-buttons button {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+        }
+
+        .flag-icon {
+            width: 30px;
+            height: auto;
+            margin-left: 5px;
+        }
+
+        .language-buttons button:focus {
+            outline: none;
+        }
+
+        #logo {
+            width: 150px;
+            height: auto;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+        }
+
+        section {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #1a1919;
+        }
+
+        h3 {
+            font-size: 35px;
+        }
+
+        p {
+            margin-left: 20px;
+            margin-right: 40px;
+            font-family: Arial, sans-serif;
+            line-height: 1.5;
+            margin-bottom: 70px;
+        }
+
+        .button {
+            background-color: #1a1919;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .button:hover {
+            background-color: #333;
+        }
+
+        footer {
+            background-color: #1a1919;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .home-box {
+            background-color: #039;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+
+        nav {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            background-color: #039;
+        }
+
+        nav ul li {
+            display: inline-block;
+            position: relative;
+        }
+
+        nav ul li a {
+            display: block;
+            padding: 10px 20px;
+            color: #333;
+            text-decoration: none;
+        }
+
+        nav ul li:hover {
+            background-color: #039;
+        }
+
+        nav ul li:hover > ul {
+            display: block;
+        }
+
+        nav ul ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #f2f2f2;
+            border: none;
+        }
+
+        nav ul ul li {
+            display: block;
+        }
+        nav ul ul li a {
+            padding: 10px 20px;
+            color: #333;
+            text-decoration: none;
+        }
+
+        nav ul ul li a:hover {
+            background-color: #ddd;
+        }
+        .menu-icon {
+            width: 30px;
+            height: auto;
+            margin-right: 10px;
+            fill: #333; 
+            cursor: pointer;
+        }
+		table {
+			width: 50%;
+			border-collapse: collapse;
+			margin: 0 auto;
+			margin-bottom: 20px; 
+		}
+		tr {
+			background-color: white;
+		}
+		td {
+			padding: 15px;
+			text-align: center; 
+		}
+
+		table,th,td {
+			border: 1px solid black;
+		}
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="home_eng.html">
+            <img src="logo_hellas_verona.png" alt="Hellas Verona" id="logo">
+        </a>
+        <div class="language-buttons">
+            <a href="scudetto_it.html"><button onclick="setLanguage('it')"><img src="italy.png" alt="Italian" class="flag-icon"></button></a>
+            <a href="scudetto_eng.html"><button onclick="setLanguage('en')"><img src="eng.png" alt="English" class="flag-icon"></button></a>
+        </div>
+        <h1>Hellas Verona</h1>
+    </header>
+        <nav>
+        <ul>
+            <li>
+                <img src="menu_icon.png" alt="Menu" class="menu-icon">
+                <ul>
+                    <li><a href="home_eng.html">HOME</a></li>
+                    <li><a href="storia_eng.html">STORY</a></li>
+                    <li><a href="stadio_eng.html">STADIUM</a></li>
+					<li><a href="maglie_eng.html">JERSEY</a></li>
+					<li><a href="scudetto_eng.html">CHAMPIONSHIP</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+	<h3>1984/85 SEASON</h3>
+	<p>In the summer of 1984, the Gialloblù signed the foreigners who had emerged from the recent European Championships, the German Briegel and the Dane Elkjær Larsen. Despite having a limited number of players, coach Bagnoli was happy to see the new recruits fit into the starting line-up. Defending the posts was Garella, with the rearguard hinging on the flankers Ferroni and Marangon: the leader of the back line was Tricella, with Fontolan playing in the centre of midfield; Di Gennaro was the reference point in midfield, with Volpati and Briegel - of whom Bruni was the first change - completing the midfield; forward Fanna supported the forwards Elkjær Larsen and Galderisi, who were the team's top scorers at the end of the season.
+		Despite the challenges posed by the start of the season, the Scaligeri - with full points in September - emerged unscathed from the away matches against Inter and Roma, winning at home against Juventus and Fiorentina: the Danish striker sealed the definitive doubling over the Bianconeri, with the goal remaining famous because of the boot lost by the player during the action that led to the goal. Having conquered the field of a Torino capable of surprisingly challenging Bagnoli's men for the lead, a slight slowdown did not preclude the unprecedented conquest of the winter title: the turnaround was concluded by the narrow defeat against Avellino. At the beginning of the final round, the Milanese made a short-lived hook-up, with the Venetians once again leading alone in February.
+		Having built up a four-point lead over Castagner's team in the spring, the team experienced its only other setback of the tournament when it stumbled at home at the hands of the Granata: while Sampdoria and Juventus joined the chasing pack, it was the victory against Lazio that sealed the latter's arithmetic relegation. The first Serie A title in the history of the Scaligera team was then awarded on 12 May 1985, after a draw at Atalanta that ensured victory in the championship with 90 minutes to spare: having beaten the Irpini in the final round, Verona finished the season with 43 points, beating Torino who took second place, 4 points behind the Gialloblu.
+		In the Coppa Italia the team - after an easy qualification in the group phase - eliminated Genoa in the round of 16, only to surrender to Inter in the next round. </p>	<img src="allenatore.jpg">
+	<figcaption>Coach Bagnoli is carried in triumph by the team to win the Scudetto</figcaption>
+	<p>"Today we do not realise what feat we have achieved, but the course of time will show us."</p>
+	<h3>PLAYER STATISTICS</h3>
+	<center>
+			<table>
+				<thead>
+					<th>PLAYERS</th>	
+					<th>ATTENDANCE</th>
+					<th>GOAL</th>
+				</thead>
+				<tbody>
+					<tr>
+						<td><a href="https://it.wikipedia.org/wiki/Giuseppe_Galderisi">1. Giuseppe Galderisi</td>
+						<td>29</td>
+						<td>11</td>
+					</tr>
+					<tr>
+						<td><a href="https://it.wikipedia.org/wiki/Hans-Peter_Briegel">2. Hans-Peter Briegel</td>
+						<td>27</td>
+						<td>9</td>
+					</tr>
+					<tr>
+						<td><a href="https://it.wikipedia.org/wiki/Preben_Elkjær_Larsen">3. Preben Elkjær Larsen</td>
+						<td>23</td>
+						<td>8</td>
+					</tr>
+					<tr>
+						<td><a href="https://it.wikipedia.org/wiki/Antonio_Di_Gennaro">4. Antonio Di Gennaro</td>
+						<td>29</td>
+						<td>4</td>
+					</tr>
+					<tr>
+						<td><a href="https://it.wikipedia.org/wiki/Pierino_Fanna">5. Pierino Fanna</td>
+						<td>29</td>
+						<td>2</td>
+					</tr>
+					<tr>
+						<td><a href="https://it.wikipedia.org/wiki/Luciano_Marangon">6. Luciano Marangon</td>
+						<td>29</td>
+						<td>2</td>
+					</tr>
+					<tr>
+						<td><a href="https://it.wikipedia.org/wiki/Silvano_Fontolan">7. Silvano Fontolan</td>
+						<td>28</td>
+						<td>1</td>
+					</tr>
+					<tr>
+						<td><a href="https://it.wikipedia.org/wiki/Luciano_Bruni">8. Luciano Bruni</td>
+						<td>27</td>
+						<td>1</td>
+					</tr>
+					<tr>
+						<td><a href="https://it.wikipedia.org/wiki/Luigi_Sacchetti">9. Luigi Sacchetti</td>
+						<td>23</td>
+						<td>8</td>
+					</tr>
+					<tr>
+						<td><a href="https://it.wikipedia.org/wiki/Roberto_Tricella">10. Roberto Tricella</td>
+						<td>30</td>
+						<td>0</td>
+					</tr>
+					<tr>
+						<td><a href="https://it.wikipedia.org/wiki/Domenico_Volpati">11. Domenico Volpati</td>
+						<td>30</td>
+						<td>0</td>
+					</tr>
+					<tr>
+						<td><a href="https://it.wikipedia.org/wiki/Mauro_Ferroni">12. Mauro Ferroni</td>
+						<td>20</td>
+						<td>0</td>
+					</tr>
+					 <tr>
+						<td><a href="https://it.wikipedia.org/wiki/Franco_Turchetta">13. Franco Turchetta</td>
+						<td>16</td>
+						<td>0</td>
+					</tr>
+					<tr>
+						<td><a href="https://it.wikipedia.org/wiki/Dario_Donà">14. Dario Donà</td>
+						<td>12</td>
+						<td>0</td>
+					</tr>
+					<tr>
+						<td><a href="https://it.wikipedia.org/wiki/Fabio_Marangon">15. Fabio Marangon</td>
+						<td>3</td>
+						<td>0</td>
+					</tr>
+					<tr>
+						<td><a href="https://it.wikipedia.org/wiki/Sergio_Spuri">16. Sergio Spuri</td>
+						<td>1</td>
+						<td>0</td>
+					</tr>
+					<tr>
+						<td><a href="https://it.wikipedia.org/wiki/Antonio_Terracciano">17. Antonio Terracciano</td>
+						<td>0</td>
+						<td>0</td>
+					</tr>
+					<tr>
+						<td><a href="https://it.wikipedia.org/wiki/Claudio_Garella">18. Claudio Garella</td>
+						<td>29</td>
+						<td>-19 (conceded)</td>
+					</tr>
+				</tbody>
+			</table>
+		</center>
+	<footer>
+		<p>GIACOMO GIRELLI</p>
+        <p>Contacts: giacomo.girelli1@iismariecurievr.it</p>
+    </footer>
+</body>
+</html>

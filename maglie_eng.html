@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hellas Verona</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            text-align: center;
+            position: relative;
+        }
+
+        header {
+            background-color: #039;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .language-buttons {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+
+        .language-buttons button {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+        }
+
+        .flag-icon {
+            width: 30px;
+            height: auto;
+            margin-left: 5px;
+        }
+
+        .language-buttons button:focus {
+            outline: none;
+        }
+
+        #logo {
+            width: 150px;
+            height: auto;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+        }
+
+        section {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #1a1919;
+        }
+
+        h3 {
+            font-size: 35px;
+        }
+
+        p {
+            margin-left: 20px;
+            margin-right: 40px;
+            font-family: Arial, sans-serif;
+            line-height: 1.5;
+            margin-bottom: 70px;
+        }
+
+        .button {
+            background-color: #1a1919;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .button:hover {
+            background-color: #333;
+        }
+
+        footer {
+            background-color: #1a1919;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .home-box {
+            background-color: #039;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+
+        nav {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            background-color: #039;
+        }
+
+        nav ul li {
+            display: inline-block;
+            position: relative;
+        }
+
+        nav ul li a {
+            display: block;
+            padding: 10px 20px;
+            color: #333;
+            text-decoration: none;
+        }
+
+        nav ul li:hover {
+            background-color: #039;
+        }
+
+        nav ul li:hover > ul {
+            display: block;
+        }
+
+        nav ul ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #f2f2f2;
+            border: none; /* Rimuove il bordo intorno al menu a tendina */
+        }
+
+        nav ul ul li {
+            display: block;
+        }
+        nav ul ul li a {
+            padding: 10px 20px;
+            color: #333;
+            text-decoration: none;
+        }
+
+        nav ul ul li a:hover {
+            background-color: #ddd;
+        }
+        .menu-icon {
+            width: 30px;
+            height: auto;
+            margin-right: 10px;
+            fill: #333; 
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="home_eng.html">
+            <img src="logo_hellas_verona.png" alt="Hellas Verona" id="logo">
+        </a>
+        <div class="language-buttons">
+            <a href="maglie_it.html"><button onclick="setLanguage('it')"><img src="italy.png" alt="Italian" class="flag-icon"></button></a>
+            <a href="maglie_eng.html"><button onclick="setLanguage('en')"><img src="eng.png" alt="English" class="flag-icon"></button></a>
+        </div>
+        <h1>Hellas Verona</h1>
+		<nav>
+			<ul>
+				<li>
+					<img src="menu_icon.png" alt="Menu" class="menu-icon">
+					<ul>
+						<li><a href="home_eng.html">HOME</a></li>
+						<li><a href="storia_eng.html">STORY</a></li>
+						<li><a href="stadio_eng.html">STADIUM</a></li>
+						<li><a href="maglie_eng.html">JERSEY</a></li>
+						<li><a href="scudetto_eng.html">CHAMPIONSHIP</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav> 
+	</header>
+	<h3>JERSEY FROM THE PRESENT</h3>
+	<h4>FIRST JERSEY 2023/24</h4>
+	<p>The home shirt of Hellas Verona traditionally features the colours yellow and blue, which have become symbols of the team throughout its history.</p>
+	<img src="maglia1.jpg">
+	<h4>SECOND JERSEY 2023/24</h4>
+	<p>The away1 (away) shirt of Hellas Verona is generally yellow, offering a sharp contrast to the yellow-blue home shirt.</p>
+	<img src="maglia2.jpg">
+	<h4>THIRD JERSEY 2023/24</h4>
+	<p>The away2 (away) shirt of Hellas Verona is generally white in colour, offering a sharp contrast to the yellow-blue home shirt.</p>
+	<img src="maglia3.jpg">
+	<h4>FIRST JERSEY 2021/22</h4>
+	<p>This shirt was used by Verona in the season in which they finished 9th in the league table.</p>
+	<img src="maglia4.jpg">
+	<h4>120-YEAR JERSEY</h4>
+	<p>This is the jersey dedicated to the 120th anniversary of the company's creation.</p>
+	<img src="maglia6.jpg">
+	<h3>JERSEY FROM THE PAST</h3>
+	<h4>100-YEAR JERSEY</h4>
+	<p>This is the jersey dedicated to 100 years since the creation of the company.</p>
+	<img src="maglia5.jpg">
+	<h4>FIRST JERSEY 1984/85</h4>
+	<p>This is the shirt from the historic championship won by Verona in the 1984/1985 season</p>
+	<img src="maglia7.jpg">
+	<h4>FIRST JERSEY 1985/86</h4>
+	<p>This is the jersey of the year following the historic championship won by Verona in the 1984/85 season, with the tricolour scudetto.</p>
+	<img src="maglia8.jpg">
+	<footer>
+		<p>GIACOMO GIRELLI</p>
+        <p>Contacts: giacomo.girelli1@iismariecurievr.it</p>
+    </footer>
+</body>
+</html>
